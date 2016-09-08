@@ -1,0 +1,92 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+
+h1, {
+	margin: 0;
+}
+
+#cover {
+	width:80%;
+	margin:auto;
+}
+
+.partes img {
+	width: 15%;
+	float:left;
+}
+
+#foto1 {
+	transition: transform 2s 0.2s ease;
+}
+
+
+#foto1:hover {
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+#foto2 {
+	transition: transform 1s 0.2s ease;
+}
+
+
+#foto2:hover {
+-webkit-transform: rotate(-360deg);
+-moz-transform: rotate(-360deg);
+-o-transform: rotate(-360deg);
+-ms-transform: rotate(-360deg);
+transform: rotate(-360deg);
+}
+
+#foto3 {
+	transition: transform 1s 0.2s ease;
+}
+
+
+#foto3:hover {
+-webkit-transform: rotate(-360deg);
+-moz-transform: rotate(-360deg);
+-o-transform: rotate(-360deg);
+-ms-transform: rotate(-360deg);
+transform: rotate(-360deg);
+}
+
+
+
+#discos {
+	position: absolute;
+	margin-top: 60%;
+	margin-left: 10%;
+}
+
+.disco {
+	float:left;
+	padding: 5px;
+}
+
+
+
+
+
+#title {
+	font-family: 'deutsch_gothicnormal';
+	width:40%;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 15%;
+	font-size: 50px;
+}
+
+footer {
+	position: absolute;
+	margin-top:50%;
+	margin-left:10%;
+
+}
+
